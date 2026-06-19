@@ -1,6 +1,6 @@
 import React from 'react';
 // Import as a React Component. Note the syntax.
-import { ReactComponent as FitMatrixLogoSvg } from './assets/fitMatrixLogo.svg';
+import { ReactComponent as FitBharatLogoSvg } from './assets/FitBharatLogo.svg';
 
 // Optional: A container to control size if needed
 const LogoContainer = styled.div`
@@ -14,11 +14,13 @@ const Header = () => {
     <header className="app-header">
       <LogoContainer>
          {/* You can pass standard SVG props like className or styles to it */}
-        <FitMatrixLogoSvg className="app-logo" aria-label="FitMatrix Logo" />
+        <FitBharatLogoSvg className="app-logo" aria-label="FitBharat Logo" />
       </LogoContainer>
-      <h1>FitMatrix</h1>
+      <h1>FitBharat</h1>
     </header>
   );
 };
 
 export default Header;
+
+

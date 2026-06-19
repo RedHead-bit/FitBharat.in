@@ -6,3 +6,6 @@ router.route("/:username").get(profileController.getProfile);
 router.route("/:username").put(profileController.updateProfile);
 
 module.exports = router;
+
+
+

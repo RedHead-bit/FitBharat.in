@@ -36,7 +36,7 @@ const GetStarted01 = () => {
         {/* Text Content */}
         <div className="flex flex-col items-center pt-8">
           <h1 className="text-green-500 tracking-tight text-[32px] font-bold leading-tight text-center">
-            FitMatrix: <span className="text-white">Decode Your Path to Peak Health.</span>
+            FitBharat: <span className="text-white">Decode Your Path to Peak Health.</span>
           </h1>
         </div>
 
@@ -64,4 +64,7 @@ const GetStarted01 = () => {
 };
 
 export default GetStarted01;
+
+
+
 

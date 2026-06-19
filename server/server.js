@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-  res.status(200).send('FitMatrix Backend is Running');
+  res.status(200).send('FitBharat Backend is Running');
 });
 
 app.use("/api/auth", authRouter);
@@ -42,3 +42,5 @@ connectDB()
   .catch((error) => {
     console.error('Failed to connect to the database:', error);
   });
+
+

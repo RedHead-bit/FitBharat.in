@@ -88,3 +88,6 @@ const generateMeal = async (req, res) => {
 };
 
 module.exports = { logMeal, getDietSummary, generateMeal };
+
+
+

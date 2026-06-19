@@ -8,3 +8,6 @@ router.route("/generate").post(workoutController.generateWorkoutPlan);
 router.route("/summary").post(workoutController.getExerciseSummary);
 
 module.exports = router;
+
+
+

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://fitmatrix-backend-deployment.onrender.com/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://FitBharat-backend-deployment.onrender.com/api';
 
 const api = axios.create({
     baseURL: API_URL,
@@ -52,3 +52,6 @@ export const dashboard = {
 };
 
 export default api;
+
+
+

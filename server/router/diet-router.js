@@ -7,3 +7,6 @@ router.get('/today', dietController.getDietSummary);
 router.post('/generate', dietController.generateMeal);
 
 module.exports = router;
+
+
+

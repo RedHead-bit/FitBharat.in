@@ -1,6 +1,6 @@
-# FitMatrix - AI-Powered Fitness & Nutrition Companion
+# FitBharat - AI-Powered Fitness & Nutrition Companion
 
-FitMatrix is a comprehensive web application designed to be your personal AI fitness coach and nutritionist. It leverages the power of Google's Gemini AI to provide personalized workout summaries and detailed nutritional information, making fitness accessible and data-driven for everyone.
+FitBharat is a comprehensive web application designed to be your personal AI fitness coach and nutritionist. It leverages the power of Google's Gemini AI to provide personalized workout summaries and detailed nutritional information, making fitness accessible and data-driven for everyone.
 
 ## 🚀 Key Features
 
@@ -48,7 +48,7 @@ FitMatrix is a comprehensive web application designed to be your personal AI fit
 
 ## 🤖 AI Integration Explained
 
-FitMatrix uses a hybrid approach for reliability and intelligence:
+FitBharat uses a hybrid approach for reliability and intelligence:
 
 1.  **Workout Generation**:
     *   Core workout structures are retrieved from a curated `workout.json` database to ensure safe and effective programming.
@@ -108,3 +108,6 @@ The backend exposes the following RESTful endpoints:
 ## 📸 Presentation Notes
 *   **Highlight**: Show the "AI Summary" feature in the workout card to demonstrate real-time AI generation.
 *   **Demo**: Log a complex meal name in the Diet section to show the AI's ability to estimate macros.
+
+
+

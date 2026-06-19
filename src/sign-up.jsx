@@ -25,7 +25,7 @@ const SignUp = (props) => {
       return
     }
     try {
-      const response = await fetch('https://fitmatrix-backend-deployment.onrender.com/api/auth/signup', {
+      const response = await fetch('https://FitBharat-backend-deployment.onrender.com/api/auth/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -52,7 +52,7 @@ const SignUp = (props) => {
   const handlelogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://fitmatrix-backend-deployment.onrender.com/api/auth/login', {
+      const response = await fetch('https://FitBharat-backend-deployment.onrender.com/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -111,7 +111,7 @@ const SignUp = (props) => {
         {/* Logo and Branding */}
         <div className="flex justify-center items-center gap-2  mb-8">
           <CheckCircle2 className="h-8 w-8 text-primary" />
-          <span className="text-2xl font-bold text-gray-100">FitMatrix</span>
+          <span className="text-2xl font-bold text-gray-100">FitBharat</span>
         </div>
 
         {/* Heading */}
@@ -298,3 +298,6 @@ const SignUp = (props) => {
 };
 
 export default SignUp;
+
+
+

@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-// const URI = 'mongodb://localhost:27017/fitmatrix';
+// const URI = 'mongodb://localhost:27017/FitBharat';
 const URI = process.env.MONGODB_URI ;
 const connectDB = async () => {
   try {
@@ -12,3 +12,5 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+
+

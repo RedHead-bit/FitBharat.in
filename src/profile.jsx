@@ -101,7 +101,7 @@ const Profile = () => {
                 </div>
                 <div className="text-center">
                     <h2 className="text-2xl font-bold text-text-primary-dark">{username}</h2>
-                    <p className="text-sm text-text-secondary-dark">{username}.j@fitmatrix.com</p>
+                    <p className="text-sm text-text-secondary-dark">{username}.j@FitBharat.com</p>
                 </div>
             </div>
 
@@ -181,3 +181,6 @@ const Profile = () => {
 };
 
 export default Profile;
+
+
+

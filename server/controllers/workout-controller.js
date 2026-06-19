@@ -97,3 +97,6 @@ const getExerciseSummary = async (req, res) => {
 };
 
 module.exports = { getWorkouts, logWorkout, generateWorkoutPlan, getExerciseSummary };
+
+
+

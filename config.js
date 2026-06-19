@@ -9,9 +9,9 @@ import 'firebase/compat/auth';
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyAWhU9_YsIQH1qycuqh2iN1RaCRg8v-TIA",
-  authDomain: "fitmatrix-eb6e5.firebaseapp.com",
-  projectId: "fitmatrix-eb6e5",
-  storageBucket: "fitmatrix-eb6e5.firebasestorage.app",
+  authDomain: "FitBharat-eb6e5.firebaseapp.com",
+  projectId: "FitBharat-eb6e5",
+  storageBucket: "FitBharat-eb6e5.firebasestorage.app",
   messagingSenderId: "877271131203",
   appId: "1:877271131203:web:d34645312c74dd4317e0f6",
   measurementId: "G-462N6SJV9J"
@@ -35,3 +35,5 @@ if (typeof window !== "undefined") {
 }
 
 export { app, analytics };
+
+

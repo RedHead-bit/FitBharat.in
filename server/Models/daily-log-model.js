@@ -38,3 +38,6 @@ dailyLogSchema.index({ userId: 1, date: 1 }, { unique: true });
 
 const DailyLog = mongoose.model('DailyLog', dailyLogSchema);
 module.exports = DailyLog;
+
+
+

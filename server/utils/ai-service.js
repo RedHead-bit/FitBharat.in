@@ -119,3 +119,6 @@ const generateExerciseSummary = async (exerciseName) => {
 };
 
 module.exports = { generateMealInfo, generateWorkout, generateExerciseSummary };
+
+
+
